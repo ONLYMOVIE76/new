@@ -117,7 +117,7 @@ def disclaimer(bot, message):
     l.delete()
     message.delete(message.message_id)
 
-@Client.on_message(filters.text & filters.photo & filters.private & filters.incoming & ~filters.edited)      
+@Client.on_message(filters.text & filters.media & filters.private & filters.incoming & ~filters.edited)      
 def regex(bot, message):
     mr = message.reply(
         text=MSG,
