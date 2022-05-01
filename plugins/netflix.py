@@ -11,7 +11,7 @@ MSG = """**😔 Sorry! No Service Available..**\n**Instead Of Me Use** ~> <a hre
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
 DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
-PINGU = """**pong!!!!**"""
+PINGU = """```pong!!!!```"""
 
 
 #buttons
