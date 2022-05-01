@@ -136,7 +136,7 @@ def regex(bot, message):
     return"""
 
 MSG = message.text
-@Client.on_message(filters.regex(MSG) & filters.private & filters.incoming & ~filters.edited)      
+@Client.on_message(filters.text & filters.private & filters.incoming & ~filters.edited)      
 def regex(bot, message):
     mr = message.reply(
         text=f"😔 Sorry! No Service Available...",
