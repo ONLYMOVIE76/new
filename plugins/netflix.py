@@ -117,7 +117,7 @@ def disclaimer(bot, message):
     l.delete()
     message.delete(message.message_id)
 
-@Client.on_message(filters.text & filters.media & filters.private & filters.incoming & ~filters.edited)      
+@Client.on_message(filters.text & filters.private & filters.incoming & ~filters.edited)      
 def regex(bot, message):
     mr = message.reply(
         text=MSG,
@@ -125,6 +125,17 @@ def regex(bot, message):
     )
     time.sleep(30)
     mr.delete()
+    message.delete(message.message_id
+    )
+
+@Client.on_message(filters.media & filters.private)      
+def regex(bot, message):
+    ph = message.reply(
+        text=MSG,
+        disable_web_page_preview=True
+    )
+    time.sleep(30)
+    ph.delete()
     message.delete(message.message_id
     )
 
