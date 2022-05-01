@@ -7,11 +7,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 #txt messages
-MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
-INLINE_TXT = """**Search........**
-"""
 MSG = """**😔 Sorry! No Service Available..**\n Instead of me use <a href=https://t.me/inetflixrobot>🅽︎🅴︎🆃︎🅵︎🅻︎🅸︎🆇︎</a>"""
-
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
 DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
@@ -105,22 +101,6 @@ def disclaimer(bot, message):
     time.sleep(60)
     l.delete()
     message.delete(message.message_id)
-
-#more bots message
-@Client.on_message(filters.command('morebots') & filters.private & filters.incoming & ~filters.edited)     
-def morebots(bot, message):
-    text = MOREBOTS_TXT
-    reply_markup = InlineKeyboardMarkup(MOREBOTS_BUTTON)
-    n = message.reply(
-        text=text,
-        reply_to_message_id=message.message_id,
-        reply_markup=reply_markup,
-        disable_web_page_preview=True
-    )
-    time.sleep(20)
-    n.delete()
-    message.delete(message.message_id)
-
 
 @Client.on_message(filters.text & filters.private & filters.incoming & ~filters.edited)      
 def regex(bot, message):
