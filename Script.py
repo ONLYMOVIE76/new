@@ -7,7 +7,7 @@ class script(object):
 🔮 **And Wait For Me To Do Magic**
 🧑🏻‍💻 **Maintained By** <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛</a>
 """
-    HELP_TXT = """**😢 Sorry! No Support From Admin**
+    HELP_TXT = """**😢 Sorry! No Support From Admin**\n **Any Queries ->** <a href=https://t.me/PrimeFeedBackBot>FeedBack</a>
 """
 
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
