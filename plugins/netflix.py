@@ -10,7 +10,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
 INLINE_TXT = """**Search........**
 """
-MSG = """**😔 Sorry! No Service Available..**\n Instead of me use @iNetflixRobot"""
+MSG = """**😔 Sorry! No Service Available..**\n Instead of me use <a href=https://t.me/inetflixrobot>ℕ𝕖𝕥𝔽𝕝𝕚𝕩</a>"""
+
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
 DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
@@ -124,17 +125,6 @@ def morebots(bot, message):
     n.delete()
     message.delete(message.message_id)
 
-#annoy
-"""BLIST = BLIST.replace(", ","|")
-@Client.on_message(filters.regex(r"(chutiya|Chutiya|chomu|Chomu|limde|Limde|chodarmad|Chodarmad|nudes|Nudes|porn|Porn|hentai|Hentai|motherchod|Motherchod|bhenchod|Bhenchod|benchod|salle|Salle|sex videos|Sex Videos|Sex videos|bf|Bf|BF|porn videos|Porn Videos|Porn videos|boobs|Boobs|BOOBS|bhosdike|Bhosdike|bsdk|BSDK|bitch|Bitch|BITCH|savita bhabhi|Savita Bhabhi|gandu|Gandu|harami|Harami|Haarami)") | filters.regex(BLIST) & filters.private & filters.incoming & ~filters.edited)      
-def regex(bot, message):
-    gj = message.reply_sticker(sticker=random.choice(STKR)
-    )
-    time.sleep(10)
-    gj.delete()
-    message.delete(message.message_id
-    )
-    return"""
 
 @Client.on_message(filters.text & filters.private & filters.incoming & ~filters.edited)      
 def regex(bot, message):
