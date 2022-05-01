@@ -29,7 +29,7 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
-FNAME = file.file_name.replace("[Telegram@Primeroom]", "").replace("[TG@Primeroom]", "").replace("TG@Primeroom", "").replace("Telegram@Primeroom_", "").replace("mkv", "").replace("#", "").replace("Filmy4wap", "").replace("[movies_unload]", " ").replace(".mkv", " ").replace("[Telegram@TheDealsRoom]", " ").replace(".com", " ").replace(".xyz", " ").replace("www", " ").replace("otthd", " ").replace("[Telegram@PrimeroomBkp]","").replace("_", " ").replace("www_", " ").replace("@ottHD", "").replace("@Movies_Unloaded", "").replace("[TG@Primeroom]", "").replace("[Primeroom]", "").replace("[Telegram@Primeroombkp]", " ").replace("[telegram@primeroom]", "").replace("Toonworld4all ", "") 
+FNAME = {file.file_name}.replace("[Telegram@Primeroom]", "").replace("[TG@Primeroom]", "").replace("TG@Primeroom", "").replace("Telegram@Primeroom_", "").replace("mkv", "").replace("#", "").replace("Filmy4wap", "").replace("[movies_unload]", " ").replace(".mkv", " ").replace("[Telegram@TheDealsRoom]", " ").replace(".com", " ").replace(".xyz", " ").replace("www", " ").replace("otthd", " ").replace("[Telegram@PrimeroomBkp]","").replace("_", " ").replace("www_", " ").replace("@ottHD", "").replace("@Movies_Unloaded", "").replace("[TG@Primeroom]", "").replace("[Primeroom]", "").replace("[Telegram@Primeroombkp]", " ").replace("[telegram@primeroom]", "").replace("Toonworld4all ", "") 
 
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
