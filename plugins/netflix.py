@@ -121,7 +121,6 @@ def disclaimer(bot, message):
 def regex(bot, message):
     mr = message.reply(
         text=MSG,
-        reply_to_message_id=message.message_id,
         disable_web_page_preview=True
     )
     time.sleep(30)
