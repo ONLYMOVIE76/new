@@ -95,7 +95,6 @@ def help(client, message):
     text = PINGU
     t = message.reply(
         text=text,
-        reply_to_message_id=message.message_id,
     )
 
 #disclaimer message
