@@ -93,9 +93,14 @@ def help(client, message):
 @Client.on_message(filters.command("ping") & filters.incoming & ~filters.edited)
 def help(client, message):
     text = PINGU
-    t = message.reply(
+    pg = message.reply(
         text=text,
     )
+    time.sleep(7)
+    pg.delete()
+    message.delete(message.message_id
+    )
+
 
 #disclaimer message
 @Client.on_message(filters.command('disclaimer') & filters.incoming & ~filters.edited)      
