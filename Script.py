@@ -7,11 +7,7 @@ class script(object):
 🔮 **And Wait For Me To Do Magic**
 🧑🏻‍💻 **Maintained By** <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛</a>
 """
-    HELP_TXT = """**This is Modified Auto-filter Bot Based on Eva-Maria's Codes, Developed By** <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛</a>
-
-**I Did Many Mistakes While Creating This Bot, If You Find Any Kind Of Mistakes or Bugs Then Feel Free To Inform Me**
-
-**Last But Not The Least I Want To Thanking To Those Peoples & Channels Who Supported This Bot Very Much**
+    HELP_TXT = """**😢 Sorry! No Support From Admin**
 """
 
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
