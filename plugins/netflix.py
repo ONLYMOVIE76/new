@@ -87,7 +87,6 @@ def help(client, message):
     t = message.reply(
         text=text,
         reply_to_message_id=message.message_id,
-        reply_markup=reply_markup,
         disable_web_page_preview=True
     )
     time.sleep(120)
