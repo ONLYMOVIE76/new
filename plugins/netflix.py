@@ -87,6 +87,15 @@ def help(client, message):
     t.delete()
     message.delete(message.message_id)
 
+#alive msg
+@Client.on_message(filters.command("ping") & filters.incoming & ~filters.edited)
+def help(client, message):
+    text = pong!!!!!
+    t = message.reply(
+        text=text,
+        reply_to_message_id=message.message_id,
+    )
+
 #disclaimer message
 @Client.on_message(filters.command('disclaimer') & filters.incoming & ~filters.edited)      
 def disclaimer(bot, message):
