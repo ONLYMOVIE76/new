@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
 INLINE_TXT = """**Search........**
 """
-MSG = """**😔 Sorry! No Service Available..**\n Instead of me use <a href=https://t.me/inetflixrobot>ℕ𝕖𝕥𝔽𝕝𝕚𝕩</a>"""
+MSG = """**😔 Sorry! No Service Available..**\n Instead of me use <a href=https://t.me/inetflixrobot>🅽︎🅴︎🆃︎🅵︎🅻︎🅸︎🆇︎</a>"""
 
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
