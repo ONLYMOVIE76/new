@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('📢 Support Channel', url='https://t.me/iPRIMEHUB')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=start"),
+                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/inetflixrobot?start=start"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
