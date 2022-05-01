@@ -1,11 +1,5 @@
 class script(object):
-    START_TXT = """𝐇𝐢 {},
-😎 𝐈'𝐦 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐧𝐝𝐞𝐫 𝐁𝐨𝐭
-👌 𝐈 𝐂𝐚𝐧 𝐒𝐞𝐚𝐫𝐜𝐡 𝐌𝐨𝐯𝐢𝐞𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮
-😋 𝐉𝐮𝐬𝐭 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐀𝐧𝐲 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞
-🔮 𝐓𝐡𝐞𝐧 𝐒𝐭𝐚𝐧𝐝 𝐁𝐚𝐜𝐤 𝐀𝐧𝐝 𝐒𝐞𝐞 𝐓𝐡𝐞 𝐌𝐚𝐠𝐢𝐜 
-🧑🏻‍💻 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛™</a>
-"""
+    START_TXT = """🙅‍♂ 𝐒𝐨𝐫𝐫𝐲! 𝐍𝐨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐅𝐫𝐨𝐦 𝐀𝐝𝐦𝐢𝐧 """
     START2_TXT = """𝐇𝐞𝐥𝐥𝐨 {} ,
 👌 **I'm Movie Finder Bot**
 😁 **I Can Give You Movies**
