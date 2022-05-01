@@ -7,7 +7,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 #txt messages
-MSG = """**😔 Error! Service Unavailable..**\n**Instead Of Me Use** ~> <a href=https://t.me/inetflixrobot>🅽︎🅴︎🆃︎🅵︎🅻︎🅸︎🆇︎</a>"""
+MSG = """**Error! Service Unavailable..**\nInstead Of Me Use ~> <a href=https://t.me/inetflixrobot>NetFlix</a>"""
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
 DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
