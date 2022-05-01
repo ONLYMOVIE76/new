@@ -3,7 +3,6 @@ import random
 from asyncio import Future, sleep
 import time
 from Script import script
-from info import BLIST, STKR
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
