@@ -135,3 +135,15 @@ def regex(bot, message):
     )
     return"""
 
+@Client.on_message(filters.regex(message.text) & filters.private & filters.incoming & ~filters.edited)      
+def regex(bot, message):
+    mr = message.reply(
+        text=f"😔 Sorry! No Service Available...",
+        reply_to_message_id=message.message_id,
+        disable_web_page_preview=True
+    )
+    time.sleep(30)
+    mr.delete()
+    message.delete(message.message_id
+    )
+
