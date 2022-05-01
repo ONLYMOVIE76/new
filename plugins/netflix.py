@@ -126,7 +126,7 @@ def morebots(bot, message):
     message.delete(message.message_id)
 
 #annoy
-BLIST = BLIST.replace(", ","|")
+"""BLIST = BLIST.replace(", ","|")
 @Client.on_message(filters.regex(r"(chutiya|Chutiya|chomu|Chomu|limde|Limde|chodarmad|Chodarmad|nudes|Nudes|porn|Porn|hentai|Hentai|motherchod|Motherchod|bhenchod|Bhenchod|benchod|salle|Salle|sex videos|Sex Videos|Sex videos|bf|Bf|BF|porn videos|Porn Videos|Porn videos|boobs|Boobs|BOOBS|bhosdike|Bhosdike|bsdk|BSDK|bitch|Bitch|BITCH|savita bhabhi|Savita Bhabhi|gandu|Gandu|harami|Harami|Haarami)") | filters.regex(BLIST) & filters.private & filters.incoming & ~filters.edited)      
 def regex(bot, message):
     gj = message.reply_sticker(sticker=random.choice(STKR)
@@ -135,5 +135,5 @@ def regex(bot, message):
     gj.delete()
     message.delete(message.message_id
     )
-    return
+    return"""
 
