@@ -11,6 +11,8 @@ MSG = """**😔 Sorry! No Service Available..**\n**Instead Of Me Use** ~> <a hre
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
 DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
+PINGU = """**pong!!!!**"""
+
 
 #buttons
 DONATE_BUTTON = [[
@@ -90,7 +92,7 @@ def help(client, message):
 #alive msg
 @Client.on_message(filters.command("ping") & filters.incoming & ~filters.edited)
 def help(client, message):
-    text = pong!!!!!
+    text = PINGU
     t = message.reply(
         text=text,
         reply_to_message_id=message.message_id,
