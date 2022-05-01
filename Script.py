@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """🙅‍♂ 𝐒𝐨𝐫𝐫𝐲! 𝐍𝐨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐅𝐫𝐨𝐦 𝐀𝐝𝐦𝐢𝐧 """
+    START_TXT = """🙅‍♂ 𝗦𝗼𝗿𝗿𝘆! 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀 𝗮𝗿𝗲 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗱𝗶𝘀𝗮𝗯𝗹𝗲𝗱 """
     START2_TXT = """𝐇𝐞𝐥𝐥𝐨 {} ,
 👌 **I'm Movie Finder Bot**
 😁 **I Can Give You Movies**
