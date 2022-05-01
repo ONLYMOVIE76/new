@@ -81,10 +81,9 @@ def request(client, message):
     message.delete(message.message_id)
 
 #help message
-@Client.on_message(filters.command("help") & filters.incoming & ~filters.edited)
+@Client.on_message(filters.command("help|start") & filters.incoming & ~filters.edited)
 def help(client, message):
     text = script.HELP_TXT
-    reply_markup = InlineKeyboardMarkup(HELP_BUTTON)
     t = message.reply(
         text=text,
         reply_to_message_id=message.message_id,
