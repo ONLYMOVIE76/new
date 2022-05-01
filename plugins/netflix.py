@@ -128,14 +128,4 @@ def regex(bot, message):
     message.delete(message.message_id
     )
 
-@Client.on_message(filters.media & filters.private)      
-def regex(bot, message):
-    ph = message.reply(
-        text=MSG,
-        disable_web_page_preview=True
-    )
-    time.sleep(30)
-    ph.delete()
-    message.delete(message.message_id
-    )
 
