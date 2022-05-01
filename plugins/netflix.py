@@ -19,22 +19,18 @@ DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
 #buttons
 DONATE_BUTTON = [[
 InlineKeyboardButton('Paypal', url=f'https://PayPal.me/rahulrahaman'), 
-InlineKeyboardButton('GPay', url=f'http://bit.ly/3AhV8gv'),
+InlineKeyboardButton('GPay', url=f'https://bit.ly/3FPKXRp'),
 InlineKeyboardButton('Paytm ', url=f'https://bit.ly/3FPKXRp'),
 ]]
 
 REQUEST_BUTTON = [[
 InlineKeyboardButton('📢 Support Channel', url=f'https://t.me/iPrimeHub'), 
-InlineKeyboardButton('👥 Request Content', url=f'https://t.me/NetFlixRequestChat'),
+InlineKeyboardButton('👥 Request Content', url=f'https://t.me/PrimeHubReq'),
 ]]
 
-HELP_BUTTON = [[
-InlineKeyboardButton('🙇 Developer', url=f'https://t.me/h7n9_alpha'), 
-InlineKeyboardButton('ℹ️ FeedBack', url=f'https://t.me/PrimeFeedbackBot'),
-]]
 
 DISCLAIMER_BUTTON = [[
-            InlineKeyboardButton('🫂 Credit', url=f'https://telegra.ph/CREDIT-04-09'),
+            InlineKeyboardButton('🫂 Dev', url=f'https://t.me/h7n9_alpha'),
             InlineKeyboardButton('ℹ️ Report', url=f'https://t.me/PrimeFeedbackBot')
         ]]
 
@@ -68,7 +64,7 @@ def donate(bot, message):
     q.delete()
     message.delete(message.message_id)
  
-#request message
+#request to
 @Client.on_message(filters.command("request") & filters.incoming & ~filters.edited)
 def request(client, message):
     reply_markup = InlineKeyboardMarkup(REQUEST_BUTTON)
