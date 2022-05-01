@@ -75,7 +75,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name.replace("[Telegram@Primeroom]", "").replace("[TG@Primeroom]", "").replace("TG@Primeroom", "").replace("Telegram@Primeroom_", "").replace("mkv", "").replace("#", "").replace("Filmy4wap", "").replace("[movies_unload]", " ").replace(".mkv", " ").replace("[Telegram@TheDealsRoom]", " ").replace(".com", " ").replace(".xyz", " ").replace("www", " ").replace("otthd", " ").replace("[Telegram@PrimeroomBkp]","").replace("_", " ").replace("www_", " ").replace("@ottHD", "").replace("@Movies_Unloaded", "").replace("[TG@Primeroom]", "").replace("[Primeroom]", "").replace("[Telegram@Primeroombkp]", " ").replace("[telegram@primeroom]", "").replace("Toonworld4all ", "")}", callback_data=f'files#{file.file_id}'
+                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
