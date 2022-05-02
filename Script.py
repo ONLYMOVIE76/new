@@ -36,13 +36,11 @@ Name - {}
     REQUEST_TXT = """𝐁𝐞𝐟𝐨𝐫𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐢𝐧𝐠 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐓𝐡𝐞 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐈𝐬𝐧'𝐭 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐎𝐧 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 🙅‍♂️"""
 
     DONATE_MESSAGE = """
-🥺Please Consider Donate it's helps me to keep Service alive and Motivated.
-☺️It doesn't matters if you donate ₹10 or ₹50
+❃ Please Consider Donate it's helps me to keep Service alive and Motivated.
+❃ It doesn't matters if you donate ₹10 or ₹50
 or ₹100, what matters is that **You Donate**
 
-               <a href=https://PayPal.me/rahulrahaman>Paypal |</a> </a> <a href=https://bit.ly/3FPKXRp>Paytm | </a><a href=bit.ly/3AhV8gv>Gpay</a>
-
- **upi-** ```iamrahulrahaman@ybl``` (tap2copy)
+   **upi-** ```iamrahulrahaman@ybl``` (tap2copy)
 """
     
 #the end
